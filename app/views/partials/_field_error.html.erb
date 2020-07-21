@@ -1,0 +1,7 @@
+<% if model.errors.has_key? key %>
+  <div class="field-errors">
+    <% model.errors.full_messages_for(key).each do |error| %>
+      <span><%= error %>
+    <% end %>
+  </div>
+<% end %>

@@ -1,0 +1,16 @@
+<p>
+  <div><%= f.label :username, 'Your username here' %></div>
+  <div><%= f.text_field :username, placeholder: 'foobar' %></div>
+  <%= render 'partials/field_error', model: @user, key: :username %>
+</p>
+<p>
+  <div><%= f.label :email %></div>
+  <div><%= f.text_field :email, placeholder: 'example@example.com' %></div>
+  <%= render 'partials/field_error', model: @user, key: :email %>
+</p>
+<p>
+  <div><%= f.label :password %></div>
+  <div><%= f.password_field :password %></div>
+  <%= render 'partials/field_error', model: @user, key: :password %>
+</p>
+<%= button_tag %>
