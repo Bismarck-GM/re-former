@@ -1,4 +1,4 @@
-# Twitter Clone
+# Re-Former
 
 ![Push Container to Heroku](https://github.com/Bismarck-GM/re-former/workflows/Deploy%20to%20Heroku/badge.svg?branch=development)
 
@@ -8,10 +8,10 @@
     <img src="rails-image.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Twitter Clone</h3>
+  <h3 align="center">Re-Former</h3>
 
   <p align="center">
-    This project consists of building a light weight version of Twitter.
+    This project is a simple blog with basic authentication.
     <br />
     <br />
     <a href="https://github.com/Bismarck-GM/re-former/issues">Report Bug</a>
@@ -26,7 +26,7 @@
 
 - Ruby On Rails
 - VSCode/Neovim
-- Rubocop 
+- Rubocop
 - Sticker
 - Github Actions
 - Postgresql
@@ -58,7 +58,7 @@ To have this app on your pc, you need to:
   - ```$ rails s```
 * and finally, you can test it in the console by running
   - ```$ rails console --sandbox```
-  
+
 <!-- AUTOMATED TEST -->
 ### Automated Test
 
