@@ -1,0 +1,10 @@
+<%= form_for @user do |f| %>
+  <fieldset>
+    <legend>Edit User</legend>
+    <%= render 'form', f: f %>
+  </fieldset>
+<% end %>
+
+<p>
+  <%= link_to 'Go back', users_path %>
+</p>

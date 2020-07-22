@@ -1,24 +1,98 @@
-# README
+# Twitter Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Push Container to Heroku](https://github.com/Bismarck-GM/re-former/workflows/Deploy%20to%20Heroku/badge.svg?branch=development)
 
-Things you may want to cover:
+<br />
+<p align="center">
+  <a href="https://github.com/Bismarck-GM/re-former">
+    <img src="rails-image.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-* Ruby version
+  <h3 align="center">Twitter Clone</h3>
 
-* System dependencies
+  <p align="center">
+    This project consists of building a light weight version of Twitter.
+    <br />
+    <br />
+    <a href="https://github.com/Bismarck-GM/re-former/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Bismarck-GM/re-former/issues">Request Feature</a>
+  </p>
+</p>
 
-* Configuration
+![screenshot](./demo.gif)
 
-* Database creation
+## Built With
 
-* Database initialization
+- Ruby On Rails
+- VSCode/Neovim
+- Rubocop 
+- Sticker
+- Github Actions
+- Postgresql
 
-* How to run the test suite
+## Live Demo
 
-* Services (job queues, cache servers, search engines, etc.)
+[Live Demo Link](https://naked-micro-reddit.herokuapp.com/)
 
-* Deployment instructions
 
-* ...
+<!-- INSTALLATION -->
+## Usage
+
+To have this app on your pc, you need to:
+* have Ruby & Ruby on Rails installed in your computer
+* [download](https://github.com/Bismarck-GM/re-former/archive/development.zip) or clone this repo:
+  - Clone with SSH:
+  ```
+    git@github.com:Bismarck-GM/re-former.git
+  ```
+  - Clone with HTTPS
+  ```
+    https://github.com/Bismarck-GM/re-former.git
+  ```
+* and open the terminal inside the repo and run the bundler
+  - ```$ bundler install --without production```
+* then, run rails db:migrate. This creates the database with the corresponding tables, columns and associations
+  - ```$ rails db:migrate```
+* then, run rails s. This will start the server at localhost `http://127.0.0.1:3000/`
+  - ```$ rails s```
+* and finally, you can test it in the console by running
+  - ```$ rails console --sandbox```
+  
+<!-- AUTOMATED TEST -->
+### Automated Test
+
+> There are no Automated Test for this project yet
+
+## Authors
+
+👤 **Hasan Kharouf**
+
+- Github: [@wintercore](https://github.com/wintercore)
+
+
+👤 **Gerónimo Morisot**
+
+- Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
+- Twitter: [@Rewritablee](https://twitter.com/Rewritablee)
+- Linkedin: [geronimomorisot](https://linkedin.com/in/geronimomorisot)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- Andy Leverenz
+
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.

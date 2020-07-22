@@ -1,0 +1,30 @@
+<!--
+<form method="post" action="<%= users_path %>" accept-charset="UTF-8">
+    <label for="username">User</label> <input id="username" name="user[username]">
+    <label for="email">Email</label> <input id="email" name="user[email]">
+    <label for="password">Password</label> <input id="password" name="user[password]">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <button>Submit</button>
+</form>
+
+<form method="post" action="<%= users_path %>" accept-charset="UTF-8">
+
+    <label for="username">User</label> <input id="username" name="user[username]">
+    <label for="email">Email</label> <input id="email" name="user[email]">
+    <label for="password">Password</label> <input id="password" name="user[password]">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+    <button>Submit</button>
+</form>
+-->
+
+<%= form_for @user do |f| %>
+  <fieldset>
+    <legend>New User</legend>
+    <%= render 'form', f: f %>
+  </fieldset>
+<% end %>
+
+<p>
+  <%= link_to 'Go back', users_path %>
+</p>
